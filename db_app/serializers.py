@@ -6,4 +6,4 @@ from rest_framework import serializers
 class PersonaSerializers(serializers.ModelSerializer):
     class Meta:
         model = Persona
-        fields = 'id','nombre','apellido','cedula','estado','valor','email','telefono'
+        fields = 'id','nombre','apellido','telefono','email','estado','valor'
