@@ -10,7 +10,6 @@ class Persona(models.Model):
     email = models.CharField(max_length=150)
     estado = models.BooleanField(default=True)
     valor = models.IntegerField(default=0)
-    valor1 = models.IntegerField(default=0)
     
 
    
